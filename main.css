@@ -1,0 +1,53 @@
+  
+  body {
+    background-image: url("back1.png");
+    /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .card {
+    background: #222;
+    border: 1px solid #dd2476;
+    color: rgba(250, 250, 250, 0.8);
+    margin-bottom: 2rem;
+  }
+  .card:hover{
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px grey;
+  }
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+ 
+  .image1{
+      height: 100px;
+      width: 100px;
+      align-items: center;
+      align-self: center;
+      align-content: center;
+      align-tracks: center;
+      text-align: center;
+  }
+  .btn:hover {
+    background-color:grey;
+    color: white;
+  }
+
+
+
+
+

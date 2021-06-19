@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment</title>
+    <link rel="stylesheet" href="Payment.css" />
+    
+  </head>
+  <body>
+    <div class="heading" >Add a Product to your cart now!! 🛒</div>
+    <div class="caution">**Caution:Please check again if all your details are correct</div>
+    <div class="subhead" >Customer Details</div>
+    <table>
+      <tr>
+        <table align:"center" class="details" >
+          
+          <tr>
+            <td > Name:</td>
+            <td >Ram</td>
+          </tr>
+          <tr>
+            <td >Mail Id:</td>
+            <td >ram****55@gmail.com</td>
+          </tr>
+          <tr>
+            <td >Contact:</td>
+            <td>95******15</td>
+          </tr>
+          <tr>
+            <td >Country:</td>
+            <td>India</td>
+          </tr>
+          <tr>
+            <td >Adderss:</td>
+            <td >2-3-6, xyz street, Guntur, AP</td>
+          </tr>
+          <td>
+              <form>
+                <label>Payment:</label>
+                <td>
+                <select id="dropdown" >
+                <option class="hover" value = "Online"> Online 
+                </option>
+                <option class="hover" value = "COD"> COD (Cash on delivery)
+                </option>
+                
+                <option class="hover" value = "debit"> Debit Card
+                </option>
+                
+                </select>
+                </td>
+                </form>
+            </td>
+          </tr>
+        </table>
+      </tr>
+        
+    </table>
+
+    <button id="pay">
+      Make a Payment
+    </button>
+    <div class="modal hidden">
+      <button id="closemodal">&times;</button>
+      <p><strong>
+         Dear Customer
+        </strong>
+      </p>
+     <p >Your Payment has been sucessfully completed 🤝</p>
+     <p>Your product will be delivered soon</p>
+     <p>Thanks for using our site </p>
+     <p id="last"><strong>Stay Safe Happy Shopping:)</strong></p>
+
+
+
+     <script src="Payment.js"></script>
+
+    </div>
+  </body>
+  <footer class="footing ">
+    <p id="tagline">An Easy way of buying.... </p> <p id="tagline">Browse |  Pay  |  Enjoy</p>
+
+  </footer>
+</html>

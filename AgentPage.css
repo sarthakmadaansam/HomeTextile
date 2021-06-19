@@ -1,0 +1,111 @@
+body {
+  background: linear-gradient(to right, white, grey);
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.heading {
+  background: black;
+  color: white;
+  font-size: 25px;
+  width: 98%;
+  height: 80px;
+  border-radius: 5px;
+  padding-left: 25px;
+  padding-top: 25px;
+  margin-bottom: 15px;
+}
+
+.caution {
+  font-size: 23px;
+}
+
+.subhead {
+  padding-left: 37%;
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.detailsOfConsumer {
+  padding-left: 37.5%;
+  margin-bottom: 30px;
+}
+
+#service {
+  border-radius: 3px;
+  margin-left: 37%;
+  margin-bottom: 10px;
+
+  font-size: 15px;
+  width: 250px;
+  height: 30px;
+}
+.hidden {
+  display: none;
+}
+
+#serviceHead {
+  padding-left: 40%;
+  font-size: 23px;
+}
+
+.serviceItems {
+  padding-left: 42%;
+  line-height: 1.6;
+}
+
+.checkDetails {
+  margin-left: 310%;
+  font-size: 18px;
+  border-radius: 2px;
+  width: 150px;
+}
+
+#checkcaution {
+  padding-left: 310%;
+  font-size: 17px;
+  width: 190px;
+}
+.modal {
+  width: 500px;
+  height: 250px;
+  margin-left: 30%;
+  background-color: white;
+  padding-left: 15px;
+  margin-top: 5%;
+}
+
+#closemodal {
+  margin-left: 92%;
+}
+
+#modalwindow {
+  padding-left: 33px;
+}
+#detailverify {
+  display: inline-block;
+}
+.servicebook {
+  margin-left: 45px;
+  font-size: 20px;
+  border-radius: 2px;
+}
+
+.footing {
+  color: black;
+  font-size: 20px;
+  width: 98%;
+  height: 78px;
+  border-radius: 5px;
+  padding-left: 25px;
+  padding-top: 3px;
+  padding-bottom: 10px;
+  opacity: 0.99;
+  margin-top: 5%;
+}
+
+#tagline {
+  padding-left: 75%;
+  padding-bottom: 5px;
+}
